@@ -1,6 +1,10 @@
 # ok-google-pi-zero
 
-Using the Google Assistant SDK on a Raspberry Pi Zero W
+Using the Google Assistant SDK on a Raspberry Pi Zero W.
+
+<div align="middle">
+  <img src="https://github.com/drejkim/ok-google-pi-zero/blob/master/assets/img/ok-google-pi-zero.JPG?raw=true" width="360px" alt="ok-google-pi-zero hardware">
+</div>
 
 ## Hardware
 
@@ -16,6 +20,9 @@ The [Introduction to the Google Assistant Service](https://developers.google.com
 
 ### Issues
 
-A collection of potential issues and how to resolve:
+A collection of issues that may be encountered and how to resolve:
 
-* [pip install error using zsh](https://github.com/googlesamples/assistant-sdk-python/issues/28)
+* Error when running `python -m pip install --upgrade google-assistant-sdk[samples]` when using zsh
+    * See [pip install error using zsh](https://github.com/googlesamples/assistant-sdk-python/issues/28)
+* GRPC installation on Pi takes awhile
+    * See [Installing Python library on Raspbian](https://github.com/grpc/grpc/issues/10793)
