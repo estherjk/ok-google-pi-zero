@@ -16,7 +16,7 @@ A powered USB 2.0 hub is also helpful for powering the Pi and the peripherals. S
 
 ## Setting up Google Assistant Service
 
-The [Introduction to the Google Assistant Service](https://developers.google.com/assistant/sdk/guides/service/python/) is very comprehensive&mdash;start here!
+[Introduction to the Google Assistant Service](https://developers.google.com/assistant/sdk/guides/service/python/) is very comprehensive&mdash;start with this!
 
 ### Issues
 
