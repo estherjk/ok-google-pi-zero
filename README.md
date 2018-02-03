@@ -26,3 +26,5 @@ A collection of issues that may be encountered and how to resolve:
     * See [pip install error using zsh](https://github.com/googlesamples/assistant-sdk-python/issues/28)
 * GRPC installation on Pi takes awhile
     * See [Installing Python library on Raspbian](https://github.com/grpc/grpc/issues/10793)
+* Adjusting the playback volume
+    * When using `alsamixer`, press F6 to select the USB speaker, then use the up / down arrow keys to set the playback volume to a desired level
